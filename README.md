@@ -30,7 +30,7 @@ Scan the QR code below with your Rabbit r1 to install and launch Yeti Escape.
 
 ### Downhill
 
-Ski down the mountain while avoiding rocks, logs, snowmen, and other obstacles. Jump obstacles, build your score, and survive until the Yeti appears.
+Ski down the mountain while avoiding rocks, logs, snowmen, and other obstacles. Jump obstacles, build your score, and survive until the Yeti appears. Escape the Yeti to finish the run and gain a points bonus!
 
 ### Slalom
 
@@ -44,7 +44,6 @@ Choose from four skiers, each with different characteristics for:
 - Turning
 - Acceleration
 
-Experiment with each skier to find the one that best suits your style.
 
 ## Repository Structure
 
