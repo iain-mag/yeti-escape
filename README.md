@@ -6,47 +6,57 @@ Choose from four skiers with different speed, turning, and acceleration characte
 
 ## Play
 
-Once GitHub Pages is enabled, the game will be available at:
+Yeti Escape is hosted on GitHub Pages:
 
-`https://<your-github-username>.github.io/yeti-escape/`
+https://iain-mag.github.io/yeti-escape/
 
-## Controls for Rabbit R1
+## Install on Rabbit r1
 
-- **Scroll Wheel or swipe** — steer 
-- **Screen Tap** - select
+Scan the QR code below with your Rabbit r1 to install and launch Yeti Escape.
 
-## Controls for browser
+![Yeti Escape r1 QR code](qr/yeti-escape-r1-qr.png)
+
+## Controls for Rabbit r1
+
+- **Scroll wheel or swipe** — steer
+- **Screen tap** — select
+
+## Controls for Browser
 
 - **Arrow keys** — steer / select
 - **Space bar** — select
 
 ## Game Modes
 
-- **Downhill** — ski as far as you can while avoiding rocks, logs, snowmen, and other hazards.
-- **Slalom** — race through the gates and aim for the best run.
+### Downhill
+
+Ski down the mountain while avoiding rocks, logs, snowmen, and other obstacles. Jump obstacles, build your score, and survive until the Yeti appears.
+
+### Slalom
+
+Race through the slalom course, passing as many gates as possible while maintaining your speed and control.
+
+## Skiers
+
+Choose from four skiers, each with different characteristics for:
+
+- Speed
+- Turning
+- Acceleration
+
+Experiment with each skier to find the one that best suits your style.
 
 ## Repository Structure
 
 ```text
 .
-├── index.html
+├── assets/
+│   ├── main-6YKvTy2V.js
+│   └── main-BFIG5Exg.css
+├── qr/
+│   └── yeti-escape-r1-qr.png
+├── .gitignore
 ├── icon.png
-├── screenshot.jpg
-└── assets/
-    ├── main-6YKvTy2V.js
-    └── main-BFIG5Exg.css
-```
-
-## Hosting
-
-This repository contains the production-ready static build of Yeti Escape and is intended to be hosted with GitHub Pages.
-
-No server-side components are required.
-
-## Rabbit r1
-
-The hosted game can be used as the target URL for a Rabbit r1 Creation QR code.
-
-## Credits
-
-Created by Iain Maguire with Rabbit Intern.
+├── index.html
+├── README.md
+└── screenshot.jpg
